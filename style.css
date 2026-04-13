@@ -1,0 +1,43 @@
+body {
+    font-family: monospace;
+    text-align: center;
+    background-color: rgb(253, 253, 180);
+}
+
+.rolled{
+    font-size: 30px;
+    padding: 20px;
+    background-color: #9eff8d;
+}
+
+.houd {
+    font-size: 20px;
+}
+
+.rainbow {
+    animation: rainbow-color-change 5s linear infinite alternate;
+    font-size: 100px;
+}
+@keyframes rainbow-color-change{
+    0%, 100% { color: #ff0000; }
+    14% { color: #ff8b00; }
+    28% { color: #e8ff00; }
+    42% { color: #5dff00; }
+    56% { color: #00b9ff; }
+    70% { color: #5d00ff; }
+    84% { color: #e800ff; }
+}
+
+.font-change {
+    animation: font-change-test 2s linear infinite alternate;
+}
+@keyframes font-change-test{
+    0%, 100% {font-size: 10px;}
+    14% { font-size: 20px; }
+    28% { font-size: 30px;}
+    42% { font-size: 40px;}
+    56% { font-size: 40px;}
+    70% { font-size: 30px;}
+    84% { font-size: 20px;}
+}
+
